@@ -1101,10 +1101,6 @@ def gameloop():
             theta12 += (0.1*(0.00987-0.00987j))
         elif ev.type == pygame.KEYDOWN  and ev.key == pygame.K_h:
             theta12 -= (0.1*(0.00987-0.00987j))
-        elif ev.type == pygame.KEYDOWN  and ev.key == pygame.K_g:
-            theta22 += (1*(0.00987-0.00987j))
-        elif ev.type == pygame.KEYDOWN  and ev.key == pygame.K_f:
-            theta22 -= (1*(0.00987-0.00987j))
         elif ev.type == pygame.KEYDOWN  and ev.key == pygame.K_d:
             theta22 += (0.1*(0.00987-0.00987j))
         elif ev.type == pygame.KEYDOWN  and ev.key == pygame.K_s:
